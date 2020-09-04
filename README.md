@@ -3,20 +3,14 @@ basic home inventory web app
 
 ** TODO **
 [] CREATE SERVER
-    [] NODE
-    [] EXPRESS??
+    [] EXPRESS
 
 [] CREATE DATABASE
-    [] MY SQL??
-    [] NOSQL??
-    [] MONGO??
+    [] MONGO
 
 [] CREATE CLIENT
     [] UI
-    [] WEB??
-    [] MOBILE??
+    [] WEB
 
 [] CREATE DEPLOY
     [] LOCAL ONLY??
-    [] APPSTORE??
-    [] WEBSITE??
