@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="https://kit.fontawesome.com/0176d06779.js" crossorigin="anonymous"></script>
+    <title>Home Inventory | Organize Your Stuff</title>
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="text-center"><i class="fas fa-border-style"></i> <span class="text-success">Home</span> Inventory</h1>
+        <h2 class="h5 text-secondary text-center">Organize Your Stuff</h2>
+        <form id="inventory-form">
+            <div class="form-group">
+                <label for="item">ITEM</label>
+                <input type="text" id="item" class="form-control rounded border">
+            </div>
+            <div class="form-group">
+                <label for="brand">BRAND</label>
+                <input type="text" id="brand" class="form-control rounded border">
+            </div>            
+            <div class="form-group">
+                <label for="quantity">QUANTITY</label>
+                <input type="number" id="quantity" class="form-control rounded border">
+            </div>
+            <input type="submit" value="ADD ITEM" class="btn btn-primary btn-block rounded">
+        </form>
+        <table class="table table-striped mt-5">
+            <thead>
+                <tr>
+                    <th>ITEM</th>
+                    <th>BRAND</th>
+                    <th>QUANTITY</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="inventory-list"></tbody>
+        </table>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
