@@ -9,7 +9,7 @@ basic home inventory web app
     [] MONGO
 
 [] CREATE CLIENT
-    [] UI
+    [X] UI
     [] WEB
 
 [] CREATE DEPLOY
